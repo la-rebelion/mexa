@@ -19,7 +19,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mexa is for entrepreneurs that code
+title: Mexa | Entrepreneurs that code
 email: viava@revelion.la
 author: Rebelion Labs
 
