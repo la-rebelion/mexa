@@ -6,4 +6,4 @@
 _site
 Gemfile.lock
 
-*.ignoreme.*
+**/*.ignoreme.*
