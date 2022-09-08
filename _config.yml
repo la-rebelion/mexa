@@ -105,3 +105,6 @@ kmarkdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+analytics:
+  ga4_property: 2LQTSHXN9V

@@ -12,9 +12,11 @@ youtube_id: GIt8dn99JZ4
 # depending on the video provided, the id variable can be: youtube_id, vimeo_id... etc. Ref: https://github.com/nathancy/jekyll-embed-video
 ---
 
-## Common Mistakes on Kubernetes cluster config: ImagePullBackOff/ErrImagePull error
+## Introduction
 
 Kubernetes is a container orchestration platform, which means it manages and tasks containers across infrastructure. However, I have seen these mistakes, or misunderstanding several times and almost ALWAYS when people is starting to work on clusters with more than one worker node, so I thought it would be useful to share them with you, I hope this clarifies the misunderstanding to avoid repeating same error over and over.
+
+## Video
 
 {% include elements/video-player.html style="primary" %}
 
@@ -36,7 +38,9 @@ In order for you to enable all the nodes in the cluster to create the Pods succe
 2. Be sure that the Pod manifest is pointing to the correct registry.
 3. Ensure that your namespaces have appropriate authorization to pull images from your local/private registry.
 
-**Problem 1:** ImagePullBackOff
+## Problem and Solutions
+
+**Problem:** ImagePullBackOff
 
 **Solution:** Create a secret with login credentials.
 
@@ -50,7 +54,7 @@ In order for you to enable all the nodes in the cluster to create the Pods succe
 
 Be careful when configuring your kubernetes cluster nodes.
 
-Conclusion
+## Conclusion
 
 In this article we learned about what Kubernetes requires to pull images from a local/private container registry. We also learned about the mistakes that people make when configuring their cluster nodes. If you are new to Kubernetes please read this article before setting up your kubernetes cluster!
 
