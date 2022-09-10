@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Common Mistakes on Kubernetes cluster config - ImagePullBackOff/ErrImagePull error
+title: Common Mistakes on Kubernetes cluster config
 abstract: "I have seen these mistakes, or misunderstanding several times and almost ALWAYS when people is starting to work on clusters with more than one worker node, so I thought it would be useful to share them with you."
 eyeCatcher: https://images.unsplash.com/photo-1655720840699-67e72c0909d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80
 categories: [Kubernetes]
