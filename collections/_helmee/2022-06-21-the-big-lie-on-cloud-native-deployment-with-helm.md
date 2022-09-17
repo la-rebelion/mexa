@@ -8,12 +8,13 @@ references:
     from: Pawel Czerwinski
     url: https://unsplash.com/@pawel_czerwinski?utm_source=la-rebelion&utm_medium=referral
     source: unsplash
-  articles:
 categories: helmee
 tags: devops helm
 properties: pinned
-cta_description: "Would you like learn more about helmee? Subscribe and be notified when more material is available"
-cta_short_text: Subscribe to our alpha testers list
+cta:
+  description: "Would you like learn more about helmee? Subscribe and be notified when more material is available"
+  short_text: Subscribe to our alpha testers list
+  destination: https://www.patreon.com/rebelionlabs
 ---
 
 ## What is _helmee_?

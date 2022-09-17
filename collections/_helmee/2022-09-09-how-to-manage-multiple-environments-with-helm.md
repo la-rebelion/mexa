@@ -8,18 +8,19 @@ references:
     from: Brett Jordan
     url: https://unsplash.com/@brett_jordan?utm_source=la-rebelion&utm_medium=referral
     source: unsplash
-  articles:
 categories: helmee
 tags: cloud devops helm
-cta_description: "Would you like learn more about helmee? Subscribe and be notified when more material is available"
-cta_short_text: Subscribe to our alpha testers list
+cta:
+  description: "Would you like learn more about helmee? Subscribe and be notified when more material is available"
+  short_text: Subscribe to our alpha testers list
+  destination: https://www.patreon.com/rebelionlabs
 ---
 
 Deploying complex applications across multiple environments is hard, and time consuming. There has to be a better way! Helm is the solution to this problem! It allows you to package your application as a chart and deploy it with one command. Helm integrates with many popular tools, like Jenkins and Gitlab CI/CD, so you don’t have to worry about running into issues when deploying complex applications across multiple cloud providers.
 
 But, helm as a solution to this problem **is just a promise, because deploying applications with helm is slow and tedious**.The Helm chart is a complex file structure that needs to be built and stored in a version control system. In order for your application to be deployed, the Helm chart needs to be built on every node in your cluster (by default). This can take anywhere from 10 minutes up to an hour depending on how many resources are available.
 
-Deploying applications with helm is a pain. It is too slow and unwieldy. It creates more work than it saves, and wastes resource (time, effort, money) that could be better spent on other things. It is time-consuming, and it makes it difficult to iterate quickly on your application’s architecture. That's why we create `helmee`, a simple, fast and easy to use tool for deploying applications on Kubernetes. `Helmee` makes it easy to provision a new application in different Kubernetes cluster instances, deploy it instantly with Helm chart or git repo, and then tear down the entire application when you need to move on.
+Deploying complex applications with helm is a pain. It is too slow and unwieldy. It creates more work than it saves, and wastes resource (time, effort, money) that could be better spent on other things. It is time-consuming, and it makes it difficult to iterate quickly on your application’s architecture. That's why we create `helmee`, a simple, fast and easy to use tool for deploying applications on Kubernetes. `Helmee` makes it easy to provision a new application in different Kubernetes cluster instances, deploy it instantly with Helm chart or git repo, and then tear down the entire application when you need to move on.
 
 ## Why helm is not the holly grail?
 

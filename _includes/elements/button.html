@@ -4,9 +4,9 @@
   {%- assign block_style = "" -%}
 {%- endif -%}
 
-{% if page.cta_description %}
-  {% include elements/highlight.html text=page.cta_description %}
-{% endif -%}
-<a class="m-1 btn btn-{{ include.style | default: 'outline-primary' }} btn-{{ include.size | default: 'md' }} {{ block_style }}" href="{{ page.cta_destination | include.link | default: '#' }}">
-  {{ page.cta_short_text | include.text | default: "Button" }}
+{% if page.cta %}
+  {% include elements/highlight.html text=page.cta.description %}
+  <a class="m-1 btn btn-{{ include.style | default: 'outline-primary' }} btn-{{ include.size | default: 'md' }} {{ block_style }}" href="{{ page.cta.destination | include.link | default: '#' }}">
+    {{ page.cta.short_text | include.text | default: "Button" }}
+  {% endif -%}
 </a>

@@ -5,9 +5,10 @@ abstract: "I have seen these mistakes, or misunderstanding several times and alm
 eyeCatcher: https://images.unsplash.com/photo-1655720840699-67e72c0909d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80
 categories: [Kubernetes]
 tags: [cloud, kubernetes, sysadmin]
-cta_description: "Would you like more articles and videos? Subscribe and be notified when more material is available"
-cta_short_text: Subscribe to our articles and social media
-cta_destination: https://www.patreon.com/rebelionlabs
+cta:
+  description: "Would you like more articles and videos? Subscribe and be notified when more material is available"
+  short_text: Subscribe to our articles and social media
+  destination: https://www.patreon.com/rebelionlabs
 youtube_id: GIt8dn99JZ4
 # depending on the video provided, the id variable can be: youtube_id, vimeo_id... etc. Ref: https://github.com/nathancy/jekyll-embed-video
 ---

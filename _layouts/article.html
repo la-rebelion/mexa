@@ -21,5 +21,13 @@ widgets:
       {%- if page.references.photo -%}
       Picture from <a href="{{ page.references.photo.url }}">{{ page.references.photo.from }}</a> at {{ page.references.photo.source }}
       {%- endif -%}
+      {%- if page.references.articles -%}
+      
+        <div>
+        {%- for article_ref in page.references.articles -%}
+            <span><i class = "nf baseline-arrow-right"></i> <a href="{{ article_ref.url }}">{{ article_ref.text }}</a> </span>
+            {%- endfor -%}
+        </div>
+      {%- endif -%}
     {%- endif -%}
 </article>

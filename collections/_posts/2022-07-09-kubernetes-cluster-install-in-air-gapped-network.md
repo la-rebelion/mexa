@@ -5,9 +5,10 @@ abstract: "Installing a Kubernetes cluster is not a simple tasks, and is even ha
 eyeCatcher: https://images.unsplash.com/photo-1463567517034-628c51048aa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
 categories: [Air Gapped Network, Kubernetes]
 tags: [cloud, kubernetes]
-cta_description: "Are you interested on getting the notes with commands?:"
-cta_short_text: Join the community
-cta_destination: https://www.patreon.com/rebelionlabs
+cta:
+  description: "Are you interested on getting the notes with commands?:"
+  short_text: Join the community
+  destination: https://www.patreon.com/rebelionlabs
 youtube_id: f71Z6SVzhVg
 # depending on the video provided, the id variable can be: youtube_id, vimeo_id... etc. Ref: https://github.com/nathancy/jekyll-embed-video
 ---

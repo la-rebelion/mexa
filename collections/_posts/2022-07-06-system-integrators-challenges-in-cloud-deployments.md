@@ -5,9 +5,10 @@ abstract: "Air gapped network or Zero Trust Network Access (ZTNA) add complexity
 eyeCatcher: https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80
 categories: [Air Gapped Network, Zero Trust Network Access (ZTNA)]
 tags: cloud devops security
-cta_description: "DevOps, SysAdmin, Cloud... how to survive the SI journey?:"
-cta_short_text: Follow my steps here
-cta_destination: https://mexa.rebelion.la
+cta:
+  description: "DevOps, SysAdmin, Cloud... how to survive the SI journey?:"
+  short_text: Follow my steps here
+  destination: https://mexa.rebelion.la
 youtube_id: _57CUWCyoXo
 # depending on the video provided, the id variable can be: youtube_id, vimeo_id... etc. Ref: https://github.com/nathancy/jekyll-embed-video
 ---
