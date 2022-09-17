@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Annoying Thing I Do every day with Kubernetes, Scripted Away and Forgotten
+title: The Annoying Thing I Do every day with Kubernetes and Helm
 abstract: "Let's face it, Kubernetes and Helm is great and even essential for many DevOps setups. Yet it requires exceptional patience and skill to use. Here I share my 'aha' moments in case you also struggle with the same things"
 eyeCatcher: https://images.unsplash.com/photo-1501673618753-48ce9418287b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80
 references:
@@ -15,7 +15,7 @@ references:
       text: Helm Advanced Techniques
     - url: https://github.com/kubernetes-sigs/kustomize
       text: Kustomize tool
-categories: helmee
+categories: Helmee
 tags: cloud devops helm
 cta:
   description: "Would you like learn more about helmee? Apply for closed beta"

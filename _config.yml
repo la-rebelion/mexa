@@ -51,7 +51,7 @@ template:
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
   date_format: "%b %d, %Y"
   widgets: colophon comment global_cmt post_meta share related_sites table_of_content global_contact
-  portfolios: projects #gallery
+  portfolios: projects helmee kexal frodoc #gallery
   propIcons:
     pinned: "&#x1f4cc;&#xFE0E;"
 
@@ -84,6 +84,7 @@ collections:
 projects_categories: 
   - Helmee
   - Kexal
+  - FroDoc
 
 related_sites:
   Source Repo | Rebelion Labs: https://github.com/la-rebelion

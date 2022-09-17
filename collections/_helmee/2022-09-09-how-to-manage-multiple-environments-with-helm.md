@@ -8,7 +8,7 @@ references:
     from: Brett Jordan
     url: https://unsplash.com/@brett_jordan?utm_source=la-rebelion&utm_medium=referral
     source: unsplash
-categories: helmee
+categories: Helmee
 tags: cloud devops helm
 cta:
   description: "Would you like learn more about helmee? Subscribe and be notified when more material is available"

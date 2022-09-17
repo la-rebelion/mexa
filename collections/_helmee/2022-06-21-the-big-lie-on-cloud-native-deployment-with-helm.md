@@ -8,7 +8,7 @@ references:
     from: Pawel Czerwinski
     url: https://unsplash.com/@pawel_czerwinski?utm_source=la-rebelion&utm_medium=referral
     source: unsplash
-categories: helmee
+categories: Helmee
 tags: devops helm
 properties: pinned
 cta:
